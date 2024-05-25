@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 100);
     });
 });
+
+// JavaScript to handle the toggle of the hamburger menu
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.getElementById('hamburger');
     const navbar = document.querySelector('.navbar');
@@ -24,13 +26,5 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('active');
         navbar.classList.toggle('active');
-    });
-});
-document.addEventListener("DOMContentLoaded", function () {
-    const navToggle = document.querySelector(".logo");
-    const navbar = document.querySelector(".navbar");
-    
-    navToggle.addEventListener("click", function () {
-        navbar.classList.toggle("active");
     });
 });
